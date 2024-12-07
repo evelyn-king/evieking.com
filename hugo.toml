@@ -1,0 +1,78 @@
+baseurl = "http://www.evieking.com"
+title = "Evelyn King"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "gruvbox"
+
+[params]
+  author = "Evelyn King"
+  info = "Physicist, Engineer, Developer"
+  description = "Evelyn King's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/profile.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  customSCSS = ["scss/_new_variables.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:hi@evieking.com"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/evelyn-king"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/evelyn-c-king"
+[[params.social]]
+  name = "ORCID"
+  icon = "fa-brands fa-orcid fa-2x"
+  weight = 1
+  url = "https://orcid.org/0000-0002-5640-7390"
+[[params.social]]
+  name = "Bluesky"
+  icon = "fa-brands fa-bluesky fa-2x"
+  weight = 3
+  url = "https://bsky.app/profile/evieking.com"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

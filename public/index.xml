@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evelyn King</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Evelyn King</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;&#xA;  About Me&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#about-me&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a Staff Engineer at &lt;a href=&#34;https://ionq.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IonQ&lt;/a&gt; working on the design of ion trap quantum computers.&#xA;Previously, I worked at &lt;a href=&#34;https://www.microsoft.com/en-us/research/research-area/quantum-computing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Quantum&lt;/a&gt; where I worked on the design and simulation of hybrid superconductor-semiconductor systems for topological quantum computing. My driving passion is the development of predictive, realistic, and useful models that enable computer-aided design of highly non-linear experimental systems. In other words, if it can&amp;rsquo;t be made in a lab to be tested, I&amp;rsquo;m not interested.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
