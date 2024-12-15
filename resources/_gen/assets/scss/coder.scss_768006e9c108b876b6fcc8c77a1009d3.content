@@ -12377,7 +12377,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  color: #212121;
+  color: #051f20;
   background-color: #8eb69b;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 1.8em;
@@ -12416,7 +12416,7 @@ h5,
 h6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-weight: 600;
-  color: #000;
+  color: #051f20;
   margin: 4rem 0 2.5rem 0; }
   h1:hover .heading-link,
   h2:hover .heading-link,
@@ -12520,13 +12520,13 @@ code {
   font-weight: 400;
   border-radius: 0.6rem;
   padding: 0.3rem 0.6rem;
-  background-color: #ccc;
-  color: #212121; }
+  background-color: #8eb69b;
+  color: #051f20; }
   @media only screen and (max-width: 768px) {
     code {
       font-size: 1.5rem; } }
 blockquote {
-  border-left: 2px solid #e0e0e0;
+  border-left: 2px solid #8eb69b;
   padding-left: 2rem;
   line-height: 2.2rem;
   font-weight: 400;
@@ -12541,7 +12541,7 @@ table {
 
 table td,
 table th {
-  border: 2px solid #000; }
+  border: 2px solid #051f20; }
 
 table tr:first-child th {
   border-top: 0; }
@@ -12655,13 +12655,13 @@ figure {
   .content .post .post-meta .tags .tag {
     display: inline-block;
     padding: 0.3rem 0.6rem;
-    background-color: #e0e0e0;
+    background-color: #8eb69b;
     border-radius: 0.6rem;
     line-height: 1.5em; }
     .content .post .post-meta .tags .tag a {
-      color: #212121; }
+      color: #051f20; }
     .content .post .post-meta .tags .tag a:active {
-      color: #212121; }
+      color: #051f20; }
   .content figure {
     margin: 0;
     padding: 0; }
@@ -12700,7 +12700,7 @@ figure {
     .list ul li .title {
       font-size: 1.8rem;
       flex: 2;
-      color: #212121;
+      color: #051f20;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
@@ -12735,7 +12735,7 @@ figure {
         display: inline-block;
         position: relative; }
         .centered .about ul li a {
-          color: #212121;
+          color: #051f20;
           text-transform: uppercase;
           margin-left: 1rem;
           margin-right: 1rem;
@@ -12840,7 +12840,7 @@ figure {
     font-size: 1.7rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
     font-weight: 600;
-    color: #212121; }
+    color: #051f20; }
   .navigation a:hover, .navigation a:focus {
     color: #235347; }
   .navigation .navigation-title {
@@ -12863,8 +12863,8 @@ figure {
         max-height: 0;
         width: 100%;
         background-color: #8eb69b;
-        border-top: solid 2px #e0e0e0;
-        border-bottom: solid 2px #e0e0e0;
+        border-top: solid 2px #8eb69b;
+        border-bottom: solid 2px #8eb69b;
         transition: opacity 0.25s, max-height 0.15s linear; } }
     .navigation .navigation-list .navigation-item {
       float: left;
@@ -12886,7 +12886,7 @@ figure {
         display: none; } }
     @media only screen and (max-width: 768px) {
       .navigation .navigation-list .menu-separator {
-        border-top: 2px solid #212121;
+        border-top: 2px solid #051f20;
         margin: 0 8rem; }
         .navigation .navigation-list .menu-separator span {
           display: none; } }
@@ -12906,7 +12906,7 @@ figure {
         position: relative;
         visibility: hidden; }
         .navigation #menu-toggle:checked + label > i {
-          color: #e0e0e0; }
+          color: #8eb69b; }
         .navigation #menu-toggle:checked + label + ul {
           visibility: visible;
           opacity: 1;
@@ -12922,9 +12922,9 @@ figure {
         font-size: 2.4rem;
         font-weight: 400; } }
     .navigation .menu-button i:hover, .navigation .menu-button i:focus {
-      color: #000; }
+      color: #051f20; }
   .navigation i {
-    color: #212121;
+    color: #051f20;
     cursor: pointer; }
     .navigation i:hover, .navigation i:focus {
       color: #235347; }
@@ -12966,8 +12966,8 @@ figure {
   .tabs input.tab-input {
     display: none; }
   .tabs label.tab-label {
-    background-color: #e0e0e0;
-    border-color: #ccc;
+    background-color: #8eb69b;
+    border-color: #8eb69b;
     border-radius: 4px 4px 0px 0px;
     border-style: solid;
     border-bottom-style: hidden;
@@ -12983,7 +12983,7 @@ figure {
     background-color: #8eb69b; }
   .tabs .tab-content {
     background-color: #8eb69b;
-    border-color: #ccc;
+    border-color: #8eb69b;
     border-style: solid;
     border-width: 1px;
     display: none;
@@ -13002,12 +13002,12 @@ figure {
 .taxonomy .taxonomy-element {
   display: block;
   padding: 0.3rem 0.9rem;
-  background-color: #e0e0e0;
+  background-color: #8eb69b;
   border-radius: 0.6rem; }
   .taxonomy .taxonomy-element a {
-    color: #212121; }
+    color: #051f20; }
   .taxonomy .taxonomy-element a:active {
-    color: #212121; }
+    color: #051f20; }
 
 .footer {
   width: 100%;
@@ -13033,8 +13033,8 @@ figure {
     width: 3rem;
     height: 3rem;
     font-size: 2rem;
-    color: #000;
-    background-color: #e0e0e0;
+    color: #051f20;
+    background-color: #8eb69b;
     border-radius: 0.2rem;
     opacity: 0.5;
     transition: all 0.25s ease-in; }
@@ -13043,7 +13043,7 @@ figure {
       opacity: 1; }
       @media only screen and (max-width: 768px) {
         .float-container a:hover, .float-container a:focus {
-          color: #000;
+          color: #051f20;
           opacity: 0.5; } }
     .float-container a i {
       position: absolute;

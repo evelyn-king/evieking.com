@@ -17,7 +17,7 @@ style = "gruvbox"
   description = "Evelyn King's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/profile.jpeg"
-  #gravatar = "john.doe@example.com"
+  #gravatar = "gravatar.com/evelyncking"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
@@ -31,7 +31,7 @@ style = "gruvbox"
   hidecolorschemetoggle = false
 
   # customCSS = ["css/custom.css"]
-  customSCSS = ["scss/_new_variables.scss"]
+  # customSCSS = ["scss/_new_variables.scss"]
   # customJS = ["js/custom.js"]
 
 [taxonomies]
@@ -55,7 +55,7 @@ style = "gruvbox"
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin fa-2x"
   weight = 1
-  url = "https://linkedin.com/evelyn-c-king"
+  url = "https://linkedin.com/in/evelyn-c-king"
 [[params.social]]
   name = "ORCID"
   icon = "fa-brands fa-orcid fa-2x"
@@ -68,10 +68,10 @@ style = "gruvbox"
   url = "https://bsky.app/profile/evieking.com"
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
 [[menu.main]]
   name = "About"
   weight = 2
