@@ -3,7 +3,7 @@ title = "Evelyn King"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
+enableGitInfo = true
 
 [pagination]
 pagerSize = 20
@@ -29,6 +29,8 @@ style = "gruvbox"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
+
+  commit = "https://github.com/evelyn-king/evieking.com/tree/"
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/_new_variables.scss"]
