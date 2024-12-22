@@ -3,7 +3,7 @@ title = "Evelyn King"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-enableGitInfo = true
+enableGitInfo = "true"
 
 [pagination]
 pagerSize = 20
