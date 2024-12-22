@@ -19,9 +19,9 @@ style = "gruvbox"
   avatarurl = "images/profile.jpeg"
   #gravatar = "gravatar.com/evelyncking"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  faviconSVG = "imagesg/ek-monogram.svg"
+  favicon_32 = "/images/ek-monogram-32x32.png"
+  favicon_16 = "/images/ek-monogram-16x16.png"
 
   since = 2024
 
