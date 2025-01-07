@@ -1,4 +1,16 @@
-# About Me
++++
+draft = false
+disableComments = true
+date = ""
+title = "About Me"
+description = "A short introduction to Evelyn King"
+slug = "about"
+authors = ["Evelyn King"]
+tags = []
+categories = []
+externalLink = ""
+series = []
++++
 
 Hello there! My name is Evelyn and my pronouns are she/they.
 
