@@ -1,0 +1,44 @@
+{% extends 'personal/base.html' %}
+{% load static %}
+
+{% block title %}{{ site_name }} - {{ info }}{% endblock %}
+{% block description %}{{ site_description }}{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="profile-section">
+        <img src="{% static 'images/profile.jpeg' %}" alt="{{ site_name }}" class="profile-image">
+        <div class="profile-info">
+            <h1>{{ site_name }}</h1>
+            <p>{{ info }}</p>
+        </div>
+    </div>
+    
+    <div class="social-links">
+        <a href="mailto:hi@evieking.com" title="Email">
+            <i class="fa-solid fa-envelope fa-2x"></i>
+        </a>
+        <a href="https://github.com/evelyn-king" title="GitHub" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github fa-2x"></i>
+        </a>
+        <a href="https://linkedin.com/in/evelyn-c-king" title="LinkedIn" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://orcid.org/0000-0002-5640-7390" title="ORCID" target="_blank" rel="noopener">
+            <i class="fa-brands fa-orcid fa-2x"></i>
+        </a>
+        <a href="https://bsky.app/profile/evieking.com" title="Bluesky" target="_blank" rel="noopener">
+            <i class="fa-brands fa-bluesky fa-2x"></i>
+        </a>
+    </div>
+</div>
+
+<div class="content">
+    <h2>Welcome!</h2>
+    <p>I'm a physicist, engineer, and software developer who's spent the last decade on the design and simulation of quantum computing hardware. In other words, I design qubits 😃.</p>
+    
+    <p>Currently, I am a Staff Engineer at <a href="https://ionq.com/" target="_blank" rel="noopener">IonQ</a> where I work on writing simulation tools that streamline and simplify modeling the behavior of ion traps.</p>
+    
+    <p>Learn more about my background and work on the <a href="{% url 'personal:about' %}">About</a> page.</p>
+</div>
+{% endblock %} 
